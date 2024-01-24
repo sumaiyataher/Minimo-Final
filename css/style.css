@@ -1,0 +1,281 @@
+/* common start */
+body{
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Ubuntu', sans-serif;
+   font-size:16px;
+   font-weight: 400;
+   color: #626262;
+  }
+
+/* common end */
+
+/* header start */
+header{
+padding: 50px 0;
+}
+
+.container{
+overflow: hidden;
+margin: 0 auto;
+width: 90%;
+/* border: 1px solid blue;  */
+}
+
+.logo{
+  margin-top: 10px;
+width: 13%;
+/* border: 1px solid red; */
+float: left;
+}
+.logo a{
+
+}
+
+.logo a img{
+width: 100%;
+}
+
+.menu{
+width: 65%;
+/* border: 1px solid blue; */
+float: right;
+}
+
+.menu ul{
+float: right; 
+}
+
+.menu ul li{
+list-style: none;
+float: left;
+}
+.menu ul li a{
+display: inline-block;
+margin: 0 45px;
+color: #626262;
+text-decoration: none;
+text-transform: uppercase;
+border-bottom: 1px solid transparent;
+transition: .33s linear;
+}
+.menu ul li:last-child a{
+  margin-right: 0;
+}
+.menu ul li a:hover {
+  border-bottom: 1px solid #626262;
+
+}
+/* header end */
+
+/* banner start */
+.banner{
+
+}
+.b_img{
+
+}
+.b_img img{
+  width: 100%;
+}
+/* banner end */
+
+/* getaway start */
+.geteaway{
+  padding: 90px 0px 25px;
+}
+.container2{
+ 
+  margin: 0 auto;
+  width: 80%;
+    /* border: 1px solid red;   */
+}
+.g_content{}
+.c_light{
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+ text-transform: uppercase;
+}
+.p_title{
+  font-family: 'Playfair Display', serif;
+  margin: 20px 0 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.c_text{
+   margin: 10;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+}
+.m_40{
+  margin-top: 40px;
+}
+/* getaway end */
+
+/* blog1 start */
+.blog1{
+  padding: 0px 0px  90px;
+}
+
+.b_content{
+overflow: hidden;
+}
+.blog_item{
+  margin-top: 65px;
+  float: left;
+  width: 47%;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+.blog_item:nth-child(even){
+  margin-left: 6%;
+}
+.blog_img{}
+
+.blog_img img{
+  width: 100%;
+}
+.m_30{
+  margin-top: 30px;
+}
+/* blog1 end */
+
+/* news start*/
+.news{
+ padding: 90px;
+ background-color: #f7f7f7;
+}
+.signup{
+text-align: center;
+}
+.signup h1{
+color: #333;
+margin-top: 0;
+margin-bottom: 70px;
+}
+.s_form{
+  width: 400px;
+  /* border: 5px solid red; */
+  margin: 0 auto;
+  position: relative;
+}
+.s_form input{
+ font-family:  'Playfair Display', serif;
+ color: #626262;
+ font-size: 14px;
+ width: 345px;
+ height: 45px;
+ border: none;
+ border-bottom: 1px solid #333;
+ background-color: transparent;
+ padding-left: 5px;
+ padding-right: 45px;
+}
+.s_form input:focus{
+  outline: 0;
+}
+.s_form button{
+  position: absolute;
+  top:15px;
+ right: 0;
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
+
+.s_form button:focus{
+  outline: 0;
+  
+}
+.s_form button img{}
+/* news end */
+
+/* blog2 start */
+.blog2{
+  padding-top:25px;
+}
+/* blog2 end */
+
+/* more start */
+.more{
+  padding: 150px 60px;
+  text-align: center;
+ 
+}
+.more button{
+
+  width: 165px;
+  height: 65px;
+  border: 2px solid #626262;
+ border-radius: 0px;
+ background-color: #fff;
+  font-family:'Playfair Display', serif;
+  font-weight:400;
+  font-size:16px;
+  color: #626262;
+  transition: .33s linear;
+}
+.more button:hover{
+  background-color: #000;
+  color: #fff;
+}
+/* more end */
+footer{
+  background-color: #f0f0f0;
+padding: 50px 0px;
+}
+.pages{
+  margin-top: 10px;
+width: 20%;
+/* border: 1px solid red; */
+float: left;
+}
+
+.pages ul li{
+  list-style: none;
+  float: left;
+  }
+
+  .pages ul li a{
+    display: inline-block;
+margin-right: 10px;
+color: #000;
+text-decoration: none;
+border-bottom: 1px solid transparent;
+transition: .33s linear;
+  }
+.social{
+width: 60%;
+/* border: 1px solid blue; */
+float: right;
+}
+
+.social ul{
+float: right; 
+}
+
+.social ul li{
+list-style: none;
+float: left;
+}
+.social ul li span{
+  color: #000;
+}
+.social ul li a{
+display: inline-block;
+margin: 0px 15px;
+color: #000;
+text-decoration: none;
+text-transform: uppercase;
+border-bottom: 1px solid transparent;
+transition: .33s linear;
+}
+.social ul li:last-child a{
+  margin-right: 0;
+}
+
+
+
